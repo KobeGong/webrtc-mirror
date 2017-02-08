@@ -103,7 +103,7 @@ deps = {
 deps_os = {
   'android': {
     'src/third_party/android_tools':
-      Var('chromium_git') + '/android_tools.git' + '@' + 'b43a6a289a7588b1769814f04dd6c7d7176974cc',
+      'https://git.coding.net/kobegong/android_tools.git' + '@' + 'b43a6a289a7588b1769814f04dd6c7d7176974cc',
     'src/third_party/ced/src':
       Var('chromium_git') + '/external/github.com/google/compact_enc_det.git' + '@' + '368a9cc09ad868a3d28f0b5ad4a733f263c46409',
     'src/third_party/icu':
